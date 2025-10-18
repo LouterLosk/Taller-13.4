@@ -28,7 +28,7 @@ public class Main {
         System.out.print("Salario Mensual: ");
         e1.setSalarioMensual(sc.nextDouble());
         sc.nextLine();
-        System.out.println("");
+        System.out.println();
 
         /**Empleado 2*/
         System.out.println("Segundo Empleado");
