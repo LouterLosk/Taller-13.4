@@ -1,4 +1,4 @@
-package Taller_314;
+package Taller314;
 
 import javax.swing.*;
 
@@ -11,7 +11,6 @@ import javax.swing.*;
  Proporcione un método establecer y un método obtener para cada variable de instancia.
  Proporcione un método mostrarFecha, que muestre el mes, día y año, separados por barras diagonales (/).
  Escriba una aplicación de prueba llamada PruebaFecha, que demuestre las capacidades de la clase Fecha.   */
-
 
 public class Main {
     public static void main(String[] args) {

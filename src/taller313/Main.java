@@ -1,4 +1,4 @@
-package taller133;
+package taller313;
 
 import java.util.Scanner;
 /**3.13 (La clase Empleado) Cree una clase llamada Empleado,
