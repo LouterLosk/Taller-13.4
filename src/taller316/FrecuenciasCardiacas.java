@@ -76,8 +76,8 @@ public class FrecuenciasCardiacas {
     public int frecuenciaMax(int edad){
         return 220 - edad;
     }
-    /**Une los dias,meses y anios en un solo formato*/
 
+    /**Une los dias,meses y anios en un solo formato*/
     public String fechaNacimiento(int dia , int mes,int anio){
         return dia +"/" + mes + "/" + anio;
     }
@@ -94,7 +94,7 @@ public class FrecuenciasCardiacas {
         String det =    "Nombre: " + Nombre + "\n" +
                         "Apellido: " + Apellido + "\n" +
                         "Fecha de nacimiento: " + fechaNacimiento(dia,mes,anio) +"\n" +
-                        "Edad: " + calculoEdad(anio)+ "\n" +
+                        "Edad: " + calculoEdad(anio)+"años" + "\n" +
                         "Frecuencia maxima: " + frecuenciaMax(calculoEdad(anio)) + "\n" +
                         "Rango de frecuencia esperada:" + "\n "+
                         frecuenciaEsperada(calculoEdad(anio));
